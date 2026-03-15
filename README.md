@@ -1,2 +1,0 @@
-# RestAssuredTest
-Rest assured framework
