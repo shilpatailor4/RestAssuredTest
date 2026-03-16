@@ -1,0 +1,46 @@
+05:22:35.523 [main] INFO  com.api.listeners.TestListener - Test Suit started!!!
+05:22:35.562 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+05:22:35.563 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working..
+05:22:37.342 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+05:22:37.342 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working..
+05:22:37.361 [main] INFO  com.api.listeners.TestListener - Test Suit completed!!!
+06:02:47.408 [main] INFO  com.api.listeners.TestListener - Test Suit started!!!
+06:02:47.444 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+06:02:47.445 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working..
+06:02:48.445 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+06:02:48.445 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+06:02:48.445 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"shilpatailor","password":"12345678"}
+06:02:49.168 [main] INFO  com.api.filters.LoggingFilter - Status Code 200
+06:02:49.169 [main] INFO  com.api.filters.LoggingFilter - Request Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 16 Mar 2026 06:02:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+06:02:49.203 [main] INFO  com.api.filters.LoggingFilter - Request body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaGlscGF0YWlsb3IiLCJpYXQiOjE3NzM2NDA5NjksImV4cCI6MTc3MzY0NDU2OX0.lmdTXELJyUI2wjtPLFYmVptxSwXtwoac7y4WSr2QN3I",
+    "type": "Bearer",
+    "id": 4718,
+    "username": "shilpatailor",
+    "email": "shilpatailorqa80@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+06:02:49.254 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+06:02:49.254 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working..
+06:02:49.276 [main] INFO  com.api.listeners.TestListener - Test Suit completed!!!
